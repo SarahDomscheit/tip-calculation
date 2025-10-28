@@ -8,7 +8,7 @@ If you want to create a console tip calculator like this from scratch, follow th
 
 `npm install -g typescript`
 
-### Clone into VS Code
+### Clone into Visual Studio Code
 
 `git clone myrepo`
 
@@ -70,7 +70,7 @@ And then build your tip calculator
 
 ## Important Note
 
-> If you start the code again and you forgot to start the compiler again (`tsc -w`), remember to compile again before you think your code has a bug.
+> If you you're using an IDE like Visual Studio Code and you restart the terminal or close your Typescript compiler (`tsc -w`), remember to compile your code again before assuming there's a bug.
 
 When using `tsc -w`, TypeScript automatically recompiles on file changes.
-If you don’t have it running, you must manually recompile each time you edit your code.
+Restarting or reopening your project in the IDE doesn’t automatically recompile your TypeScript files. You need to run `tsc` or `tsc -w` again.
